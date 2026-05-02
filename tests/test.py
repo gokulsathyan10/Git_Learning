@@ -10,6 +10,7 @@ def test_operations():
     assert subtract(5, 2) == 3
     assert multiply(2, 3) == 6
     assert divide(6, 2) == 3
+    assert divide(5, 2) == 2.5
 
-if __name__ == "__main__":
-    test_operations()
+# if __name__ == "__main__":
+#     test_operations()
